@@ -33,6 +33,7 @@ export default function RootLayout({ children }) {
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
         />
+        <link rel="shortcut icon" href="/fav.png" type="image/x-icon"></link>
       </head>
       <body>{children}</body>
     </html>
