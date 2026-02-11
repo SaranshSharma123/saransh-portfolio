@@ -5,13 +5,14 @@ import { motion } from "framer-motion";
 const projects = [
     {
         id: 1,
-        title: "Smart Tourist Safety System",
+        title: "Layer 7 Load Balancer",
         description:
-            "An intelligent safety system for tourists that provides real-time alerts, emergency assistance, and location-based safety information using IoT and machine learning.",
-        tags: ["Python", "AWS", "IoT", "Flask"],
+            "Production-grade Node.js reverse proxy with a real-time React monitoring dashboard.",
+        tags: ["Node.js", "React", "AWS", "Docker"],
         gradient: "gradient-bg-1",
-        emoji: "🛡️",
-        github: "https://github.com/saransh",
+        emoji: "",
+        image: "/loadbalancer.png",
+        github: "https://github.com/SaranshSharma123/load-balancer",
         live: "#",
     },
     {
@@ -84,9 +85,25 @@ export default function Projects() {
                             whileHover={{ y: -8 }}
                         >
                             <div className={`project-card__image ${project.gradient}`}>
-                                <div className="project-card__image-gradient">
-                                    {project.emoji}
-                                </div>
+                                {project.image ? (
+                                    <img
+                                        src={project.image}
+                                        alt={project.title}
+                                        style={{
+                                            width: "100%",
+                                            height: "100%",
+                                            objectFit: "cover",
+                                            position: "absolute",
+                                            top: 0,
+                                            left: 0,
+                                            borderRadius: "inherit",
+                                        }}
+                                    />
+                                ) : (
+                                    <div className="project-card__image-gradient">
+                                        {project.emoji}
+                                    </div>
+                                )}
                                 <span className="project-card__number">
                                     {String(project.id).padStart(2, "0")}
                                 </span>
