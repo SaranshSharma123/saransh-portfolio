@@ -1,23 +1,24 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Saransh Sharma | Software Engineer",
+  title: "Saransh Sharma | Cloud Engineer",
   description:
-    "Portfolio of Saransh Sharma — Software Engineer crafting exceptional digital experiences with modern web technologies.",
+    "Portfolio of Saransh Sharma — Cloud Engineer specializing in AWS, DevOps, Docker, and scalable cloud infrastructure.",
   keywords: [
     "Saransh Sharma",
-    "Software Engineer",
-    "Full Stack Developer",
+    "Cloud Engineer",
+    "AWS",
+    "DevOps",
+    "Docker",
+    "MERN Stack",
+    "Python",
     "Portfolio",
-    "Web Developer",
-    "Next.js",
-    "React",
   ],
   authors: [{ name: "Saransh Sharma" }],
   openGraph: {
-    title: "Saransh Sharma | Software Engineer",
+    title: "Saransh Sharma | Cloud Engineer",
     description:
-      "Portfolio of Saransh Sharma — Software Engineer crafting exceptional digital experiences.",
+      "Portfolio of Saransh Sharma — Cloud Engineer specializing in AWS, DevOps, and scalable cloud infrastructure.",
     type: "website",
   },
 };

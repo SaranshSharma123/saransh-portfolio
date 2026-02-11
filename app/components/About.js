@@ -17,20 +17,20 @@ const stagger = {
 
 const skills = [
     {
-        title: "Frontend",
-        items: ["React", "Next.js", "TypeScript", "JavaScript", "HTML/CSS"],
+        title: "Cloud & AWS",
+        items: ["EC2", "S3", "Lambda", "CloudFormation", "ECS"],
     },
     {
-        title: "Backend",
-        items: ["Node.js", "Express", "Python", "REST APIs", "GraphQL"],
+        title: "DevOps & CI/CD",
+        items: ["Docker", "Kubernetes", "Jenkins", "GitHub Actions", "Terraform"],
     },
     {
-        title: "Database",
-        items: ["MongoDB", "PostgreSQL", "MySQL", "Redis", "Firebase"],
+        title: "Backend & MERN",
+        items: ["Node.js", "Express", "React", "MongoDB", "Python"],
     },
     {
-        title: "Tools & DevOps",
-        items: ["Git", "Docker", "AWS", "Linux", "CI/CD"],
+        title: "Database & Tools",
+        items: ["MySQL", "MongoDB", "Git", "Linux", "Nginx"],
     },
 ];
 
@@ -41,29 +41,29 @@ export default function About() {
                 <motion.div className="section-header" {...fadeInUp}>
                     <p className="section-header__label">About Me</p>
                     <h2 className="section-header__title">
-                        Crafting Code with Purpose
+                        Engineering the Cloud
                     </h2>
                 </motion.div>
 
                 <div className="about__grid">
                     <div className="about__text">
                         <motion.p {...fadeInUp}>
-                            I&apos;m Saransh Sharma, a Software Engineer with a deep passion
-                            for building things that live on the internet. I specialize in
-                            creating exceptional, high-quality web applications and digital
-                            experiences that not only look great but deliver real value.
+                            I&apos;m Saransh Sharma, a Cloud Engineer with a deep passion
+                            for building scalable, resilient cloud infrastructure. I specialize in
+                            AWS services, containerization with Docker, and implementing robust
+                            CI/CD pipelines that deliver reliable, automated deployments.
                         </motion.p>
 
                         <motion.p
                             {...fadeInUp}
                             transition={{ duration: 0.7, delay: 0.1, ease: [0.16, 1, 0.3, 1] }}
                         >
-                            My journey in software engineering has equipped me with a strong
-                            foundation in both frontend and backend technologies. I thrive on
-                            solving complex problems and translating ideas into clean,
-                            efficient code. Whether it&apos;s a sleek user interface or a
-                            robust API, I bring the same level of dedication and attention to
-                            detail.
+                            My journey in cloud engineering has equipped me with expertise in
+                            DevOps practices, infrastructure as code, and the MERN stack. I thrive on
+                            architecting systems that scale effortlessly and automating
+                            everything possible. Whether it&apos;s a Kubernetes cluster or a
+                            serverless architecture, I bring the same level of dedication and
+                            precision.
                         </motion.p>
 
                         <motion.p

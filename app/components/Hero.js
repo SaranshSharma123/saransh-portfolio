@@ -41,8 +41,8 @@ export default function Hero() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.7, delay: 0.7 }}
                     >
-                        <span className="hero__title-accent">Software Engineer</span>{" "}
-                        &mdash; Building Digital Experiences
+                        <span className="hero__title-accent">Cloud Engineer</span>{" "}
+                        &mdash; Building Scalable Infrastructure
                     </motion.h2>
 
                     <motion.p
@@ -51,9 +51,9 @@ export default function Hero() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6, delay: 0.9 }}
                     >
-                        Passionate about crafting elegant, performant, and user-centric
-                        applications. I transform complex problems into clean, intuitive
-                        digital solutions.
+                        Passionate about architecting scalable cloud infrastructure,
+                        automating deployments, and building reliable systems. I transform
+                        complex DevOps challenges into elegant, automated solutions.
                     </motion.p>
 
                     <motion.div

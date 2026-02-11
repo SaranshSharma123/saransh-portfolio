@@ -3,22 +3,22 @@
 import { motion } from "framer-motion";
 
 const techStack = [
-    "JavaScript",
-    "TypeScript",
-    "React",
-    "Next.js",
-    "Node.js",
-    "Python",
-    "MongoDB",
-    "PostgreSQL",
-    "Docker",
     "AWS",
-    "Git",
-    "Redis",
-    "GraphQL",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "Jenkins",
+    "Node.js",
+    "React",
     "Express",
-    "Firebase",
+    "MongoDB",
+    "Python",
+    "MySQL",
     "Linux",
+    "Nginx",
+    "GitHub Actions",
+    "CloudFormation",
+    "CI/CD",
 ];
 
 export default function TechMarquee() {
